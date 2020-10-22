@@ -389,7 +389,7 @@ RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Check for file in directory with Apps/windows apps.html extension
+# Check for file in directory with windows apps.html extension
 
 RewriteCond %{REQUEST_FILENAME}\.html -f
 
